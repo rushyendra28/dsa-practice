@@ -134,4 +134,7 @@
 #     print(f"{num} is not a prime number")
 
 
-#
+#reverse string
+str = input("Enter a string: ")
+reversed_str = str[::-1]
+print(f"Reversed string: {reversed_str}")
